@@ -10,6 +10,7 @@ const BlogPost = ({ data }) => {
       <MDXRenderer>
         {data.mdx.body}
       </MDXRenderer>
+      {console.log(data)}
     </Layout>
   )
 }
